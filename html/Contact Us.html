@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width-device-width, intial-scale-1">
+
+	<title>Latihan 08</title>
+
+	<link rel="stylesheet" type="text/css" href="../bootstrap-4.0.0/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/template.css">
+	<!-- font awesome -->
+    <link rel="stylesheet" href="../fontawesome-free-5.14.0-web/fontawesome-free-5.14.0-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
+</head>
+<body>			
+					
+						<!--Header-->
+							 <header class="header">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="#"><img src="../images/logo.png" style="width: 300px; height: 50px;"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="../html/Home.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../html/Contact US.html">Contact US</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle active"  href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item active" href="../html/Wisata.html">Wisata <span class="sr-only">(current)</span></a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="../html/About.html">About Me</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</nav>
+            </header>
+						<!--Header-->
+
+<section class="jumbroton-fluid" id="jarak">
+  <div class="container-fluid ">
+    <div class="row">
+                      <div class="col-md-6" >
+                  <div class="mb-3">
+                      <h4 class="text-mono text-center mt-1">Contact US</h4>
+                    <div class="card-body">                      
+                <img data-alt-src="../images/kop2.jpg" src="../images/kop1.jpg" class="kop mx-auto d-block"/>
+                      <br />
+                    </div>
+                  </div>
+    </div>
+
+                    <div class="col-md-6 mb-2" >
+                  <div class="card">
+                    <div class="card-header bg-dark">
+                      <h4 class="text-mono text-center text-white">Form Pengisian</h4>
+                    </div>
+                    <div class="card-body">
+                      <div class="card-text">
+                        <form id="contact-form" name="contact-form">
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-4">
+                          <label for="name" ><i class="fa fa-user" aria-hidden="true"> Your name</i></label>
+                            <input type="text" id="name" name="name" class="form-control border-top-0 border-left-0 border-right-0 " onclick="tekan()">
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-4">
+                          <label for="email" class=""><i class="fa fa-envelope" aria-hidden="true"> Your email</i></label>
+                            <input type="text" id="email" name="email" class="form-control border-top-0 border-left-0 border-right-0" data-validate=""> 
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-4">
+                          <label for="subject" class=""><i class="fa fa-exclamation" aria-hidden="true"> Subject</i></label>
+                            <input type="text" id="subject" name="subject" class="form-control border-top-0 border-left-0 border-right-0">
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-12">
+                        <div class="md-form mb-4">
+                          <label for="message"><i class="fa fa-pencil-square-o" aria-hidden="true"> Your message</i></label>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control border-top-0 border-left-0 border-right-0 md-textarea"></textarea>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+                  <div class="row">
+                    <button class="btn btn-dark mx-auto d-block"><i class="fa fa-paper-plane-o" aria-hidden="true"> KIRIM</i></button>
+                  </div>
+            </form>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+  </div>
+</div>
+</section>
+				
+<footer class="page-footer font-small special-color-dark pt-4 bg-dark">
+
+         <div class="container ">
+            <div class="row text-white">
+                <div class="col ">
+                    <h4>Tentang</h4>
+                    <p>NIM : 3201816083</p>
+                    <p>NAMA : MUHAMMAD ICHLASUL AMAL</p>
+                    <p>SEMESTER/KELAS: 4/A</p>
+                    <p>PRATIKUM TUGAS DESAIN WEBSITE</p>
+                </div>
+
+
+                <div class="col-4 " style="line-height: 20px;">
+                    <h4>Yang Di Gunakan</h4>
+                    <p>BOOTSTRAP</p>
+                    <p>JQUERY</p>
+                    <p>Carousel</p>
+                    <p>CSS</p>
+                    <p>HTML5</p>
+
+                </div>
+            </div>
+
+            <div class="footer-copyright text-center py-3 text-white">© 2020 Copyright:
+                <a href="https://polnep.ac.id/" style="text-decoration: none;"> Politeknik Negeri Pontianak</a>
+            </div>
+        </div>
+
+</footer>
+<!-- Footer -->
+
+						
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+	var sourceSwap = function () {
+        var $this = $(this);
+        var newSource = $this.data('alt-src');
+        $this.data('alt-src', $this.attr('src'));
+        $this.attr('src', newSource);
+    }
+
+    $(function() {
+        $('img[data-alt-src]').each(function() { 
+            new Image().src = $(this).data('alt-src'); 
+        }).hover(sourceSwap, sourceSwap); 
+    });
+</script>
+    
+</body>
+</html>
